@@ -1,0 +1,278 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [],
+  "impls": {
+    "86fb2a9b83854a005daee5754dac5125e37d342c5d7b31aa991c9a2f28254074": {
+      "address": "0x4EF464f11FDbAd5d0Bd877AEeAD5065652a7a2ab",
+      "txHash": "0x80dfb83b3fa7d43786940133d97f18ad4b740239eef26420de2684fb9b5b471c",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "contracts\\OpenzeppelinUpgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "contracts\\OpenzeppelinUpgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "contracts\\OpenzeppelinUpgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "contracts\\OpenzeppelinUpgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "contracts\\OpenzeppelinUpgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "contracts\\OpenzeppelinUpgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:197"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "contracts\\OpenzeppelinUpgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "governorPresets",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_struct(Bytes32ToAddressMap)7426_storage",
+            "contract": "GovernorFactory",
+            "src": "contracts\\GovernorFactory.sol:16"
+          },
+          {
+            "label": "voteTokenPresets",
+            "offset": 0,
+            "slot": "205",
+            "type": "t_struct(Bytes32ToAddressMap)7426_storage",
+            "contract": "GovernorFactory",
+            "src": "contracts\\GovernorFactory.sol:17"
+          },
+          {
+            "label": "timelockController",
+            "offset": 0,
+            "slot": "209",
+            "type": "t_address",
+            "contract": "GovernorFactory",
+            "src": "contracts\\GovernorFactory.sol:18"
+          },
+          {
+            "label": "treasury",
+            "offset": 0,
+            "slot": "210",
+            "type": "t_address",
+            "contract": "GovernorFactory",
+            "src": "contracts\\GovernorFactory.sol:19"
+          },
+          {
+            "label": "totalGovernor",
+            "offset": 0,
+            "slot": "211",
+            "type": "t_uint256",
+            "contract": "GovernorFactory",
+            "src": "contracts\\GovernorFactory.sol:20"
+          },
+          {
+            "label": "governors",
+            "offset": 0,
+            "slot": "212",
+            "type": "t_mapping(t_uint256,t_struct(Governor)51_storage)",
+            "contract": "GovernorFactory",
+            "src": "contracts\\GovernorFactory.sol:21"
+          },
+          {
+            "label": "usedSalts",
+            "offset": 0,
+            "slot": "213",
+            "type": "t_mapping(t_bytes32,t_bool)",
+            "contract": "GovernorFactory",
+            "src": "contracts\\GovernorFactory.sol:22"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_bool)": {
+            "label": "mapping(bytes32 => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_bytes32)": {
+            "label": "mapping(bytes32 => bytes32)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint8)": {
+            "label": "mapping(bytes32 => uint8)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(Governor)51_storage)": {
+            "label": "mapping(uint256 => struct GovernorFactory.Governor)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Bytes32Set)6549_storage": {
+            "label": "struct EnumerableSetUpgradeable.Bytes32Set",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)6355_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(Bytes32ToAddressMap)7426_storage": {
+            "label": "struct Bytes32ToAddressMapUpgradeable.Bytes32ToAddressMap",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Bytes32ToBytes32Map)7152_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_struct(Bytes32ToBytes32Map)7152_storage": {
+            "label": "struct Bytes32ToAddressMapUpgradeable.Bytes32ToBytes32Map",
+            "members": [
+              {
+                "label": "_keys",
+                "type": "t_struct(Bytes32Set)6549_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_values",
+                "type": "t_mapping(t_bytes32,t_bytes32)",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "_keyLengths",
+                "type": "t_mapping(t_bytes32,t_uint8)",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_struct(Governor)51_storage": {
+            "label": "struct GovernorFactory.Governor",
+            "members": [
+              {
+                "label": "governor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "voteToken",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "timelock",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "treasury",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_struct(Set)6355_storage": {
+            "label": "struct EnumerableSetUpgradeable.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
